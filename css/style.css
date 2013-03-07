@@ -39,7 +39,7 @@ h1.logo {
 
 h2.subhead {
 	float: right;
-	width: 88%;
+	width: 87.5%;
 	font-size: 3em;
 	margin: 0;
 	margin-top: 48px;
@@ -47,7 +47,7 @@ h2.subhead {
 
 p.dek {
 	float: right;
-	width: 88%;
+	width: 87.5%;
 	margin-top: 16px;
 	font-size: 1.25em;
 }
