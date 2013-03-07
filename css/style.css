@@ -21,7 +21,16 @@ h1.logo {
 	text-indent: -9999px;
 	background: url(../img/logo.png) left top no-repeat;
 	float: left;
-	padding: 16px 16px 16px 0;
+	display: block;
+	margin: 32px 32px 32px 0;
+}
+
+h2.subhead {
+	float: right;
+	width: 85%;
+	font-size: 3em;
+	margin: 0;
+	margin-top: 32px;
 }
 
 #slideshow {
