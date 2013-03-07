@@ -118,14 +118,14 @@ p.dek {
 }
 
 .evSingleDate .DateMon {
-	font-size: 2em;
+	font-size: 3em;
 	display: block;
 	padding: 8px 0 8px 0;
 	border-bottom: 2px solid #989898;	
 }
 
 .evSingleDate .DateDay {
-	font-size: 7em;
+	font-size: 6em;
 	display: block;
 	padding: 16px 0 16px 0;
 }
