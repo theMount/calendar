@@ -1,4 +1,4 @@
-BODY {
+body {
 	BACKGROUND-COLOR: #FFFFFF;
 	color: #000000;
 	FONT-FAMILY: Arial, Helvetica, Sans Serif
@@ -6,21 +6,21 @@ BODY {
 
 #slideshow {
 	margin:0 auto;
-	width:1400px;
-	height:700px;
+	width:1920px;
+	height:1080px;
 	position:relative;
 }
 
 #slideshow #slidesContainer {
   margin:0 auto;
-  width:1320px;
-  height:700px;
+  width:1920px;
+  height:1080px;
   overflow:hidden; /* hide scrollbar */
   position:relative;
 }
 
 #slideshow #slidesContainer .slide {
   margin:0 auto;
-  width:1300px; /* reduce by 20 pixels to avoid horizontal scroll */
-  height:700px;
+  width:1920px; /* reduce by 20 pixels to avoid horizontal scroll */
+  height:1080px;
 }
