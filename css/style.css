@@ -56,8 +56,8 @@ p.dek {
 #slideshow {
 	margin-top:0;
 	margin-left: 5%;
-	width:95%;
-	height:100%;
+	width: 90%;
+	height: 100%;
 	position:relative;
 	overflow: hidden;
 }
@@ -76,14 +76,15 @@ p.dek {
   height:100%;
 }
 
-span.DateYr {
+.DateYr,
+.DateDOW {
 	display: none;
 }
 
-div.evDates {
+.evSingleDate {
 	background: #b9b9b9;
 	border: 2px solid #a7a7a7;
-	width: 10%;
+	width: 13%;
 	text-align: center;
 	color: #fff;
 	font-weight: 700;
@@ -109,23 +110,29 @@ div.evDates {
 .evLocation,
 .evRepeat {
 	float: right;
-	width: 85%;
+	width: 80%;
 }
 
 .evTitle {
 	clear:both;
 }
 
-.DateMon {
-	font-size: 1.5em;
+.evSingleDate .DateMon {
+	font-size: 2em;
 	display: block;
 	padding: 8px 0 8px 0;
-	border-bottom: 1px solid #989898;	
+	border-bottom: 2px solid #989898;	
 }
 
-.DateDay {
-	font-size: 4em;
+.evSingleDate .DateDay {
+	font-size: 7em;
 	display: block;
 	padding: 16px 0 16px 0;
-	border-bottom: 1px solid #989898;
+}
+
+.evSingleDate .Time {
+	font-size: 1.5em;
+	display: block;
+	padding: 16px 0 16px 0;
+	border-top: 2px solid #989898;
 }
