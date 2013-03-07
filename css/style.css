@@ -7,10 +7,10 @@ body {
 	overflow: hidden;
 }
 
-a:link {color:#00599c; text-decoration: none;}      /* unvisited link */
-a:visited {color:#00599c; text-decoration: none;}  /* visited link */
-a:hover {color:#00599c; text-decoration: none;}  /* mouse over link */
-a:active {color:#00599c; text-decoration: none;}  /* selected link */
+a:link {color:#8ebadb; text-decoration: none;}      /* unvisited link */
+a:visited {color:#8ebadb; text-decoration: none;}  /* visited link */
+a:hover {color:#8ebadb; text-decoration: none;}  /* mouse over link */
+a:active {color:#8ebadb; text-decoration: none;}  /* selected link */
 
 .header {
 	width: 100%;
@@ -42,6 +42,7 @@ h2.subhead {
 p.dek {
 	float: right;
 	width: 88%;
+	margin-top: 32px;
 }
 
 
