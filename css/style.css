@@ -9,8 +9,8 @@ body {
 .header {
 	width: 100%;
 	background: #111c25 url(/img/bg-nav-full.png) left top repeat-x;
-	border-bottom: 16px #ccc solid;
 	padding-left: 5%;
+	color: #ffffff;
 }
 
 #slideshow {
