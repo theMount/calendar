@@ -161,14 +161,14 @@ h1.evTitle:nth-of-type(2) {
 }
 
 h2.evCal {
-	font-size: 1.5em;
+	font-size: 2em;
 	margin: 16px 0 0 0;
 	color: #666;
 }
 
 .evLocation,
 .evRepeat {
-	font-size: 1.5em;
+	font-size: 2em;
 	margin: 16px 0 0 0;
 	font-weight: bold;
 	
