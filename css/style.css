@@ -71,7 +71,7 @@ p.dek {
 }
 
 #slideshow #slidesContainer .slide {
-  margin: 1em auto 0;
+  margin: 3em auto 0;
   width:1920px; /* reduce by 20 pixels to avoid horizontal scroll */
   height:100%;
 }
@@ -141,4 +141,18 @@ h1.evTitle {
 	font-size: 3em;
 	color: #00599c;
 	margin: 0;
+}
+
+h2.evCal {
+	font-size: 1.5em;
+	margin: 16px 0 0 0;
+	color: #666;
+}
+
+.evLocation,
+.evRepeat {
+	font-size: 1.5em;
+	margin: 16px 0 0 0;
+	font-weight: bold;
+	
 }
