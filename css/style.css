@@ -27,6 +27,19 @@ a:active {color:#8ebadb; text-decoration: none;}  /* selected link */
   	margin-bottom: 32px;
 }
 
+.footer {
+	width: 100%;
+	background: #111c25 url(../img/bg-nav-full.png) left top repeat-x;
+	padding-left: 5%;
+	color: #ffffff;
+	overflow: hidden;
+	height: 10em;
+	
+  	-moz-box-shadow:    0px -3px 6px 3px #ccc;
+  	-webkit-box-shadow: 0px -3px 6px 3px #ccc;
+  	box-shadow:         0px -3px 6px 3px #ccc;
+}
+
 h1.logo {
 	width: 150px;
 	height: 117px;
