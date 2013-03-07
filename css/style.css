@@ -6,6 +6,12 @@ body {
 	font-family: Arial, Helvetica, Sans Serif
 	overflow: hidden;
 }
+
+a:link {color:#00599c; text-decoration: none;}      /* unvisited link */
+a:visited {color:#00599c; text-decoration: none;}  /* visited link */
+a:hover {color:#00599c; text-decoration: none;}  /* mouse over link */
+a:active {color:#00599c; text-decoration: none;}  /* selected link */
+
 .header {
 	width: 100%;
 	background: #111c25 url(../img/bg-nav-full.png) left top repeat-x;
@@ -31,9 +37,13 @@ h2.subhead {
 	font-size: 3em;
 	margin: 0;
 	margin-top: 32px;
-	text-align: right;
-	padding-right: 5%;
 }
+
+p.dek {
+	float: right;
+	width: 88%;
+}
+
 
 #slideshow {
 	margin-top:0;
