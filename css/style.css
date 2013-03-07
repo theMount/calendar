@@ -9,6 +9,7 @@ body {
 	width:1890px;
 	height:1080px;
 	position:relative;
+	overflow: hidden;
 }
 
 #slideshow #slidesContainer {
