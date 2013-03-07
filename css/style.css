@@ -71,7 +71,7 @@ p.dek {
 }
 
 #slideshow #slidesContainer .slide {
-  margin:0 auto;
+  margin: 1em auto 0;
   width:1920px; /* reduce by 20 pixels to avoid horizontal scroll */
   height:100%;
 }
@@ -135,4 +135,10 @@ p.dek {
 	display: block;
 	padding: 16px 0 16px 0;
 	border-top: 2px solid #989898;
+}
+
+h1.evTitle {
+	font-size: 3em;
+	color: #00599c;
+	margin: 0;
 }
