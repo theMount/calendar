@@ -2,6 +2,7 @@ body {
 	BACKGROUND-COLOR: #FFFFFF;
 	color: #000000;
 	FONT-FAMILY: Arial, Helvetica, Sans Serif
+	overflow: hidden;
 }
 
 #slideshow {
