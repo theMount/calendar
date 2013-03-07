@@ -30,5 +30,5 @@ body {
 #slideshow #slidesContainer .slide {
   margin:0 auto;
   width:1920px; /* reduce by 20 pixels to avoid horizontal scroll */
-  height:1080px;
+  height:100%;
 }
