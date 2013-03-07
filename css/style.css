@@ -20,9 +20,9 @@ a:active {color:#8ebadb; text-decoration: none;}  /* selected link */
 	overflow: hidden;
 	height: 181px;
 	
-  	-moz-box-shadow:    0px 3px 6px 1px #787878;
-  	-webkit-box-shadow: 0px 3px 6px 1px #787878;
-  	box-shadow:         0px 3px 6px 1px #787878;
+  	-moz-box-shadow:    0px 3px 6px 3px #ccc;
+  	-webkit-box-shadow: 0px 3px 6px 3px #ccc;
+  	box-shadow:         0px 3px 6px 3px #ccc;
   	
   	margin-bottom: 32px;
 }
