@@ -15,7 +15,7 @@ function beginrefresh(){
 
 	    // Determine new position
       		currentPosition = currentPosition+1;
-		window.status="";
+		window.status="";00000
 
 		if (currentPosition < numberOfSlides) {
       	      		// Move slideInner using margin-left
