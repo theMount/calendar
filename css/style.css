@@ -9,7 +9,7 @@ body {
 .header {
 	width: 100%;
 	background: #666;
-	border-bottom: 
+	border-bottom: 16px #ccc solid;
 	padding-left: 5%;
 }
 
