@@ -5,7 +5,7 @@ var parselimit=limit.split(":")
 parselimit=parselimit[0]*60+parselimit[1]*1
 
 var currentPosition = 0;
-var slideWidth = 1920;
+var slideWidth = 1890;
 var slides;
 var numberOfSlides;
 
