@@ -20,9 +20,9 @@ a:active {color:#8ebadb; text-decoration: none;}  /* selected link */
 	overflow: hidden;
 	height: 213px;
 	
-  	-moz-box-shadow:    0px 3px 6px 3px #ccc;
-  	-webkit-box-shadow: 0px 3px 6px 3px #ccc;
-  	box-shadow:         0px 3px 6px 3px #ccc;
+  	-moz-box-shadow:    0px 2px 6px 3px #ccc;
+  	-webkit-box-shadow: 0px 2px 6px 3px #ccc;
+  	box-shadow:         0px 2px 6px 3px #ccc;
   	
   	margin-bottom: 32px;
 }
@@ -35,9 +35,9 @@ a:active {color:#8ebadb; text-decoration: none;}  /* selected link */
 	overflow: hidden;
 	height: 178px;
 	
-  	-moz-box-shadow:    0px -3px 6px 3px #ccc;
-  	-webkit-box-shadow: 0px -3px 6px 3px #ccc;
-  	box-shadow:         0px -3px 6px 3px #ccc;
+  	-moz-box-shadow:    0px -2px 6px 3px #ccc;
+  	-webkit-box-shadow: 0px -2px 6px 3px #ccc;
+  	box-shadow:         0px -2px 6px 3px #ccc;
 }
 
 h1.logo {
