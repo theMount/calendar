@@ -1,7 +1,7 @@
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 body {
-	background-color: #ffffff;
+	background: #ffffff url(../img/bell-tower.png) right bottom no-repeat;;
 	color: #000000;
 	font-family: Arial, Helvetica, Sans Serif
 	overflow: hidden;
@@ -192,3 +192,52 @@ h2.evCal {
 .weather span {
 	font-size: 1.5em;
 }
+
+.Moderateorheavysnowinareawiththunder {}
+.Patchylightsnowinareawiththunder {}
+.Moderateorheavyraininareawiththunder {}
+.Patchylightraininareawiththunder {}
+.Moderateorheavyshowersoficepellets {}
+.Lightshowersoficepellets {}
+.Moderateorheavysnowshowers {}
+.Lightsnowshowers {}
+.Moderateorheavysleetshowers {}
+.Lightsleetshowers {}
+.Torrentialrainshower {}
+.Moderateorheavyrainshower {}
+.Lightrainshower {}
+.Icepellets {}
+.Heavysnow {}
+.Patchyheavysnow {}
+.Moderatesnow {}
+.Patchymoderatesnow {}
+.Lightsnow {}
+.Patchylightsnow {}
+.Moderateorheavysleet {}
+.Lightsleet {}
+.ModerateorHeavyfreezingrain {}
+.Lightfreezingrain {}
+.Heavyrain {}
+.Heavyrainattimes {}
+.Moderaterain {}
+.Moderaterainattimes {}
+.Lightrain {}
+.Patchylightrain {}
+.Heavyfreezingdrizzle {}
+.Freezingdrizzle {}
+.Lightdrizzle {}
+.Patchylightdrizzle {}
+.Freezingfog {}
+.Fog {}
+.Blizzard {}
+.Blowingsnow {}
+.Thunderyoutbreaksinnearby {}
+.Patchyfreezingdrizzlenearby {}
+.Patchysleetnearby {}
+.Patchysnownearby {}
+.Patchyrainnearby {}
+.Mist {}
+.Overcast {}
+.Cloudy {}
+.PartlyCloudy {}
+.Clear/Sunny {}
