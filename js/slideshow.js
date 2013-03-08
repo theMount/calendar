@@ -5,12 +5,9 @@ var parselimit=limit.split(":")
 parselimit=parselimit[0]*60+parselimit[1]*1
 
 var currentPosition = 0;
-var slideWidth = 1400;
-var slideHeight = 700;
+var slideWidth = 1920;
 var slides;
 var numberOfSlides;
-// set slideDir to "vert" for vertical transitions; set it to "horiz" for side-side transitions
-var slideDir = "vert";
 
 function beginrefresh(){
 
@@ -18,21 +15,13 @@ function beginrefresh(){
 
 	    // Determine new position
       		currentPosition = currentPosition+1;
-		window.status="";
+		window.status="";00000
 
 		if (currentPosition < numberOfSlides) {
-			if (slideDir == "horiz") {
-      	      			// Move slideInner using margin-left
-	      			$('#slideInner').animate({
-        				'marginLeft' : slideWidth*(-currentPosition)
-      					});
-				}
-			else if (slideDir == "vert") {
-      	      			// Move slideInner using margin-left
-	      			$('#slideInner').animate({
-        				'marginTop' : slideHeight*(-currentPosition)
-      					});
-				}
+      	      		// Move slideInner using margin-left
+	      		$('#slideInner').animate({
+        			'marginLeft' : slideWidth*(-currentPosition)
+      				});
 			parselimit=limit.split(":");
 			parselimit=parselimit[0]*60+parselimit[1]*1;
 			beginrefresh();
@@ -69,20 +58,11 @@ slides
 // Float left to display horizontally, readjust .slides width
 .css({
     'float' : 'left',
-    'width' : slideWidth,
-    'height': slideHeight
+    'width' : slideWidth
 });
 
-if (slideDir == "horiz") {
-	// Set #slideInner width equal to total width of all slides
-	$('#slideInner').css('width', slideWidth * numberOfSlides);
-	}
-else if (slideDir == "vert") {
-	// Set #slideInner height equal to total height of all slides
-	$('#slideInner').css('height', slideHeight * numberOfSlides);
-	}
-
+// Set #slideInner width equal to total width of all slides
+$('#slideInner').css('width', slideWidth * numberOfSlides);
 
 beginrefresh()
 });
-
