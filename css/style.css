@@ -180,7 +180,7 @@ h2.evCal {
 
 .weather {
 	float: right;
-	width: 30%;
+	width: 20%;
 	position: relative;
 	top: -50px;
 }
@@ -190,6 +190,6 @@ h2.evCal {
 }
 
 .weather span {
-	margin-top: 32px;
+	margin-top: 48px;
 	font-size: 1.5em;
 }
