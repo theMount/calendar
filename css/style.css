@@ -54,13 +54,13 @@ h2.subhead {
 	float: left;
 	width: 50%;
 	font-size: 3em;
-	margin: 32px 0 0 32px;
+	margin: 32px 0 0 48px;
 }
 
 p.dek {
 	float: left;
 	width: 50%;
-	margin: 16px 0 0 32px;
+	margin: 16px 0 0 48px;
 	font-size: 1.25em;
 }
 
@@ -182,7 +182,7 @@ h2.evCal {
 	float: right;
 	width: 30%;
 	position: relative;
-	top: -65px;
+	top: -50px;
 }
 .weather h2 {
 	font-size: 2.5em;
@@ -190,5 +190,6 @@ h2.evCal {
 }
 
 .weather span {
-	font-size: 2em;
+	margin-top: 32px;
+	font-size: 1.5em;
 }
