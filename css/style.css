@@ -186,10 +186,9 @@ h2.evCal {
 }
 .weather h2 {
 	font-size: 2.5em;
-	margin: 0;
+	margin: 0 0 2em 0;
 }
 
 .weather span {
-	margin-top: 48px;
 	font-size: 1.5em;
 }
