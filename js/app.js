@@ -4,6 +4,7 @@ $(document).ready(function () {
 		var currentCondition = json.data.current_condition[0].weatherDesc[0].value;
     	var conditionClass = currentCondition.replace(/\s/g, "");
     	var currentTemp = json.data.current_condition[0].temp_F;
+    	var 
 
 		$("span.condition").addClass(conditionClass);
 		$("span.condition").text(currentCondition);
