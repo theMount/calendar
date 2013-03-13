@@ -245,14 +245,14 @@ h2.evCal {
 
 .left-col {
 	float: left;
-	width: 47.5%;
-	margin-right: 5%;
+	width: 66.666666%;
+	margin-right: 3.333333%;
 	overflow: hidden;
 	height: auto;
 }
 .right-col {
 	float: right;
-	width: 47.5%;
+	width: 30%;
 	margin: 0;
 	overflow: hidden;
 	height: auto;
@@ -267,7 +267,7 @@ h2.evCal {
 	display: inline-block;
 	width: 64px;
 	height: 64px;
-	margin-right: 32px;
+	margin-right: 16px;
 }
 
 .social {
