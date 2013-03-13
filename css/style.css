@@ -93,7 +93,9 @@ p.dek {
 	display: none;
 }
 
-.evSingleDate {
+.evSingleDate,
+.evStart,
+.evEnd {
 	background: #b9b9b9;
 	border: 2px solid #a7a7a7;
 	width: 10%;
@@ -125,24 +127,38 @@ p.dek {
 	width: 88%;
 }
 
+.eventMulti .evTitle,
+.eventMulti .evCal,
+.eventMulti .evLocation,
+.eventMulti .evRepeat {
+	float: right;
+	width: 78%;
+}
+
 .evTitle {
 	clear:both;
 }
 
-.evSingleDate .DateMon {
+.evSingleDate .DateMon,
+.evStart .DateMon,
+.evEnd .DateMon {
 	font-size: 2em;
 	display: block;
 	padding: 8px 0 8px 0;
 	border-bottom: 2px solid #989898;	
 }
 
-.evSingleDate .DateDay {
+.evSingleDate .DateDay,
+.evStart .DateDay,
+.evEnd .DateDay {
 	font-size: 4em;
 	display: block;
 	padding: 16px 0 16px 0;
 }
 
-.evSingleDate .Time {
+.evSingleDate .Time,
+.evStart .Time,
+.evEnd .Time {
 	font-size: 1.25em;
 	display: block;
 	padding: 16px 0 16px 0;
