@@ -31,7 +31,7 @@ function beginrefresh(){
       	      			// Move slideInner using margin-left
 	      			$('#slideInner').animate({
         				'marginTop' : slideHeight*(-currentPosition)
-      					});
+      					}, 1000);
 				}
 			parselimit=limit.split(":");
 			parselimit=parselimit[0]*60+parselimit[1]*1;
