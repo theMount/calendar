@@ -6,7 +6,7 @@ parselimit=parselimit[0]*60+parselimit[1]*1
 
 var currentPosition = 0;
 var slideWidth = 1920;
-var slideHeight = 700;
+var slideHeight = 650;
 var slides;
 var numberOfSlides;
 // set slideDir to "vert" for vertical transitions; set it to "horiz" for side-side transitions
