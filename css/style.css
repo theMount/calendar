@@ -241,3 +241,55 @@ h2.evCal {
 .Cloudy {}
 .PartlyCloudy {}
 .Clear/Sunny {}
+
+
+.left-col {
+	float: left;
+	width: 47.5%;
+	margin-right: 5%;
+	overflow: hidden;
+	height: auto;
+}
+.right-col {
+	float: right;
+	width: 47.5%;
+	margin: 0;
+	overflow: hidden;
+	height: auto;
+}
+
+.right-col ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.right-col ul li {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin-right: 20px;
+}
+
+.social {
+	background: url(../img/social-sprite.png) no-repeat;
+	width: 100px;
+	height: 100px;
+	display: block;
+	text-indent: -9999px;
+}
+
+.social.facebook {
+	background-position: 0% 0%;
+}
+
+.social.twitter {
+	background-position: 0% -200px;
+}
+
+.social.youtube {
+	background-position: 0% -300px;
+}
+
+.social.pinterest {
+	background-position: 0% -100px;
+}
