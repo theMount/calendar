@@ -196,7 +196,7 @@ h2.evCal {
 
 .temperature {
 	display: inline-block;
-	margin-left: 1em;
+	margin-left: .5em;
 }
 
 .condition {
@@ -208,56 +208,54 @@ h2.evCal {
 	background: url(../img/weather-sprite.png) no-repeat;
 }
 
-.Moderateorheavysnowinareawiththunder,
-.Patchylightsnowinareawiththunder,
-.Moderateorheavyraininareawiththunder,
-.Patchylightraininareawiththunder,
-.Moderateorheavyshowersoficepellets,
-.Lightshowersoficepellets,
-.Moderateorheavysnowshowers,
-.Lightsnowshowers,
-.Moderateorheavysleetshowers,
-.Lightsleetshowers,
-.Torrentialrainshower,
-.Moderateorheavyrainshower,
-.Lightrainshower,
-.Icepellets,
-.Heavysnow,
-.Patchyheavysnow,
-.Moderatesnow,
-.Patchymoderatesnow,
-.Lightsnow,
-.Patchylightsnow,
-.Moderateorheavysleet,
-.Lightsleet,
-.ModerateorHeavyfreezingrain,
-.Lightfreezingrain,
-.Heavyrain,
-.Heavyrainattimes,
-.Moderaterain,
-.Moderaterainattimes,
-.Lightrain,
-.Patchylightrain,
-.Heavyfreezingdrizzle,
-.Freezingdrizzle,
-.Lightdrizzle,
-.Patchylightdrizzle,
-.Freezingfog,
-.Fog,
-.Blizzard,
-.Blowingsnow,
-.Thunderyoutbreaksinnearby,
-.Patchyfreezingdrizzlenearby,
-.Patchysleetnearby,
-.Patchysnownearby,
-.Patchyrainnearby,
-.Mist,
-.Overcast,
-.Cloudy,
-.PartlyCloudy,
-.Clear/Sunny {
-
-}
+.condition.Moderateorheavysnowinareawiththunder {background-position: 0 -256px;}
+.condition.Patchylightsnowinareawiththunder {background-position: 0 -256px;}
+.condition.Moderateorheavyraininareawiththunder {background-position: 0 -256px;}
+.condition.Patchylightraininareawiththunder {background-position: 0 -1088px;}
+.condition.Moderateorheavyshowersoficepellets {background-position: 0 0px;}
+.condition.Lightshowersoficepellets {background-position: 0 0px;}
+.condition.Moderateorheavysnowshowers {background-position: 0 -192px;}
+.condition.Lightsnowshowers {background-position: 0  -448px;}
+.condition.Moderateorheavysleetshowers {background-position: 0 0px;}
+.condition.Lightsleetshowers {background-position: 0 0px;}
+.condition.Torrentialrainshower {background-position: 0 -64px;}
+.condition.Moderateorheavyrainshower {background-position: 0 -64px;}
+.condition.Lightrainshower {background-position: 0 -512px;}
+.condition.Icepellets {background-position: 0 0px;}
+.condition.Heavysnow {background-position: 0 -192px;}
+.condition.Patchyheavysnow {background-position: 0 -192px;}
+.condition.Moderatesnow {background-position: 0 -640px;}
+.condition.Patchymoderatesnow {background-position: 0 -640px;}
+.condition.Lightsnow {background-position: 0 -448px;}
+.condition.Patchylightsnow {background-position: 0  -448px;}
+.condition.Moderateorheavysleet {background-position: 0 -448px;}
+.condition.Lightsleet {background-position: 0 -384px;}
+.condition.ModerateorHeavyfreezingrain {background-position: 0 -128px;}
+.condition.Lightfreezingrain {background-position: 0 -384px;}
+.condition.Heavyrain {background-position: 0 -64px;}
+.condition.Heavyrainattimes {background-position: 0 -64px;}
+.condition.Moderaterain {background-position: 0 -512px;}
+.condition.Moderaterainattimes {background-position: 0 -512px;}
+.condition.Lightrain {background-position: 0 -320px;}
+.condition.Patchylightrain {background-position: 0 -320px;}
+.condition.Heavyfreezingdrizzle {background-position: 0 -384px;}
+.condition.Freezingdrizzle {background-position: 0 -384px;}
+.condition.Lightdrizzle {background-position: 0 -320px;}
+.condition.Patchylightdrizzle {background-position: 0 -320px;}
+.condition.Freezingfog {background-position: 0 -704px;}
+.condition.Fog {background-position: 0 -704px;}
+.condition.Blizzard {background-position: 0 -192px;}
+.condition.Blowingsnow {background-position: 0 -192px;}
+.condition.Thunderyoutbreaksinnearby {background-position: 0 -1024px;}
+.condition.Patchyfreezingdrizzlenearby {background-position: 0 -320px;}
+.condition.Patchysleetnearby {background-position: 0 -320px;}
+.condition.Patchysnownearby {background-position: 0  -448px;}
+.condition.Patchyrainnearby {background-position: 0  -320px;}
+.condition.Mist {background-position: 0 -704px;}
+.condition.Overcast {background-position: 0 -704px;}
+.condition.Cloudy {background-position: 0 -768px;}
+.condition.PartlyCloudy {background-position: 0 -832px;}
+.condition.Clear/Sunny {background-position: 0 -896px;}
 
 
 .left-col {
