@@ -265,15 +265,15 @@ h2.evCal {
 
 .right-col ul li {
 	display: inline-block;
-	width: 100px;
-	height: 100px;
-	margin-right: 20px;
+	width: 64px;
+	height: 64px;
+	margin-right: 32px;
 }
 
 .social {
 	background: url(../img/social-sprite.png) no-repeat;
-	width: 100px;
-	height: 100px;
+	width: 64px;
+	height: 64px;
 	display: block;
 	text-indent: -9999px;
 }
@@ -283,13 +283,13 @@ h2.evCal {
 }
 
 .social.twitter {
-	background-position: 0% -200px;
+	background-position: 0% -64px;
 }
 
 .social.youtube {
-	background-position: 0% -300px;
+	background-position: 0% -128px;
 }
 
 .social.pinterest {
-	background-position: 0% -100px;
+	background-position: 0% -192px;
 }
