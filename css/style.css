@@ -190,57 +190,74 @@ h2.evCal {
 }
 
 .weather span {
-	font-size: 1.5em;
+	font-size: 2.5em;
+	line-height: 1.5em;
 }
 
-.Moderateorheavysnowinareawiththunder {}
-.Patchylightsnowinareawiththunder {}
-.Moderateorheavyraininareawiththunder {}
-.Patchylightraininareawiththunder {}
-.Moderateorheavyshowersoficepellets {}
-.Lightshowersoficepellets {}
-.Moderateorheavysnowshowers {}
-.Lightsnowshowers {}
-.Moderateorheavysleetshowers {}
-.Lightsleetshowers {}
-.Torrentialrainshower {}
-.Moderateorheavyrainshower {}
-.Lightrainshower {}
-.Icepellets {}
-.Heavysnow {}
-.Patchyheavysnow {}
-.Moderatesnow {}
-.Patchymoderatesnow {}
-.Lightsnow {}
-.Patchylightsnow {}
-.Moderateorheavysleet {}
-.Lightsleet {}
-.ModerateorHeavyfreezingrain {}
-.Lightfreezingrain {}
-.Heavyrain {}
-.Heavyrainattimes {}
-.Moderaterain {}
-.Moderaterainattimes {}
-.Lightrain {}
-.Patchylightrain {}
-.Heavyfreezingdrizzle {}
-.Freezingdrizzle {}
-.Lightdrizzle {}
-.Patchylightdrizzle {}
-.Freezingfog {}
-.Fog {}
-.Blizzard {}
-.Blowingsnow {}
-.Thunderyoutbreaksinnearby {}
-.Patchyfreezingdrizzlenearby {}
-.Patchysleetnearby {}
-.Patchysnownearby {}
-.Patchyrainnearby {}
-.Mist {}
-.Overcast {}
-.Cloudy {}
-.PartlyCloudy {}
-.Clear/Sunny {}
+.temperature {
+	display: inline-block;
+	margin-left: 1em;
+}
+
+.condition {
+	display: inline-block;
+	width: 64px;
+	height: 64px;
+	margin-right: 16px;
+	text-indent: -9999px;
+	background: url(../img/weather-sprite.png) no-repeat;
+}
+
+.Moderateorheavysnowinareawiththunder,
+.Patchylightsnowinareawiththunder,
+.Moderateorheavyraininareawiththunder,
+.Patchylightraininareawiththunder,
+.Moderateorheavyshowersoficepellets,
+.Lightshowersoficepellets,
+.Moderateorheavysnowshowers,
+.Lightsnowshowers,
+.Moderateorheavysleetshowers,
+.Lightsleetshowers,
+.Torrentialrainshower,
+.Moderateorheavyrainshower,
+.Lightrainshower,
+.Icepellets,
+.Heavysnow,
+.Patchyheavysnow,
+.Moderatesnow,
+.Patchymoderatesnow,
+.Lightsnow,
+.Patchylightsnow,
+.Moderateorheavysleet,
+.Lightsleet,
+.ModerateorHeavyfreezingrain,
+.Lightfreezingrain,
+.Heavyrain,
+.Heavyrainattimes,
+.Moderaterain,
+.Moderaterainattimes,
+.Lightrain,
+.Patchylightrain,
+.Heavyfreezingdrizzle,
+.Freezingdrizzle,
+.Lightdrizzle,
+.Patchylightdrizzle,
+.Freezingfog,
+.Fog,
+.Blizzard,
+.Blowingsnow,
+.Thunderyoutbreaksinnearby,
+.Patchyfreezingdrizzlenearby,
+.Patchysleetnearby,
+.Patchysnownearby,
+.Patchyrainnearby,
+.Mist,
+.Overcast,
+.Cloudy,
+.PartlyCloudy,
+.Clear/Sunny {
+
+}
 
 
 .left-col {
