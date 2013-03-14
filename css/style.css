@@ -274,7 +274,8 @@ h2.evCal {
 .condition.Overcast {background-position: 0 -704px;}
 .condition.Cloudy {background-position: 0 -768px;}
 .condition.PartlyCloudy {background-position: 0 -832px;}
-.condition.Clear/Sunny {background-position: 0 -896px;}
+.condition.Clear/Sunny {background-position: 0 -960px;}
+.condition.Sunny {background-position: 0 -960px;}
 
 
 .left-col {
