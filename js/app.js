@@ -9,4 +9,10 @@ $(document).ready(function () {
 		$("span.condition").text(currentCondition);
 		$("span.temperature").text(currentTemp);
 	});
+	
+	$('h1.evTitle').each(function () {
+	    if ($(this).text().length>55) {
+	        $(this).text($(this).text().substring(0, 55).split(" ").slice(0, -1).join(" ") + "...");
+	    }
+	});
 });
